@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #333;
+    min-height: 100vh;
+    padding: 20px;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.header {
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+.header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+.header p {
+    font-size: 1.1em;
+    opacity: 0.9;
+}
+.journey-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.journey-btn {
+    padding: 10px 20px;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 1em;
+    transition: all 0.3s;
+    font-weight: bold;
+}
+.journey-btn:hover {
+    background: white;
+    color: #667eea;
+}
+.journey-btn.active {
+    background: white;
+    color: #667eea;
+}
+.timeline-container {
+    background: white;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+.timeline {
+    position: relative;
+    padding: 20px 0;
+}
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 4px;
+    height: 100%;
+    background: #667eea;
+}
+.timeline-item {
+    margin-bottom: 50px;
+}
+.timeline-item:nth-child(odd) {
+    padding-right: 55%;
+    text-align: right;
+}
+.timeline-item:nth-child(even) {
+    padding-left: 55%;
+    text-align: left;
+}
+.timeline-dot {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 20px;
+    background: white;
+    border: 4px solid #667eea;
+    border-radius: 50%;
+    top: 0;
+    z-index: 10;
+}
+.timeline-content {
+    background: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #667eea;
+}
+.timeline-item:nth-child(even) .timeline-content {
+    border-left: none;
+    border-right: 4px solid #764ba2;
+}
+.timeline-date {
+    font-weight: bold;
+    color: #667eea;
+    margin-bottom: 5px;
+}
+.timeline-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.timeline-description {
+    color: #666;
+    line-height: 1.5;
+}
+@media (max-width: 768px) {
+    .timeline::before {
+        left: 0;
+    }
+    .timeline-item:nth-child(odd),
+    .timeline-item:nth-child(even) {
+        padding-left: 40px;
+        padding-right: 0;
+        text-align: left;
+    }
+    .timeline-dot {
+        left: 0;
+    }
+    .timeline-content {
+        border-right: none;
+        border-left: 4px solid #667eea;
+    }
+}
