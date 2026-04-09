@@ -1,0 +1,138 @@
+{
+  "ruqyah": {
+    "title": "Ruqyah",
+    "description": "Spiritual healing journey",
+    "items": [
+      {
+        "date": "2024-01-01",
+        "title": "Started Ruqyah Practice",
+        "description": "Began learning traditional Islamic healing techniques"
+      },
+      {
+        "date": "2024-03-15",
+        "title": "First Session",
+        "description": "Conducted first Ruqyah session with family"
+      },
+      {
+        "date": "2024-06-15",
+        "title": "Got Advanced",
+        "description": "Learned more advanced techniques and methods"
+      }
+    ]
+  },
+  "academy": {
+    "title": "Academy",
+    "description": "Educational journey",
+    "items": [
+      {
+        "date": "2023-09-01",
+        "title": "Program Start",
+        "description": "Enrolled in specialized academic program"
+      },
+      {
+        "date": "2024-02-01",
+        "title": "Midterms Done",
+        "description": "Successfully completed midterm assessments"
+      },
+      {
+        "date": "2024-12-01",
+        "title": "Graduation",
+        "description": "Successfully graduated with good grades"
+      }
+    ]
+  },
+  "cmap": {
+    "title": "cMap",
+    "description": "Concept mapping project",
+    "items": [
+      {
+        "date": "2024-03-01",
+        "title": "Project Start",
+        "description": "Initiated concept mapping project idea"
+      },
+      {
+        "date": "2024-05-10",
+        "title": "First Draft",
+        "description": "Completed initial concept map structure"
+      },
+      {
+        "date": "2024-08-20",
+        "title": "Launched",
+        "description": "Launched the concept mapping tool"
+      }
+    ]
+  },
+  "boardgames": {
+    "title": "BoardGames",
+    "description": "Board game design",
+    "items": [
+      {
+        "date": "2024-02-01",
+        "title": "Design Phase",
+        "description": "Started designing first board game"
+      },
+      {
+        "date": "2024-04-15",
+        "title": "Prototype Ready",
+        "description": "Created first physical prototype"
+      },
+      {
+        "date": "2024-09-01",
+        "title": "Playtesting",
+        "description": "Started testing with friends and collecting feedback"
+      }
+    ]
+  },
+  "webdev": {
+    "title": "WebDev",
+    "description": "Web development journey",
+    "items": [
+      {
+        "date": "2022-01-01",
+        "title": "Started Learning",
+        "description": "Began learning HTML, CSS and JavaScript"
+      },
+      {
+        "date": "2022-06-01",
+        "title": "JavaScript Master",
+        "description": "Completed advanced JavaScript course"
+      },
+      {
+        "date": "2023-06-01",
+        "title": "First Project",
+        "description": "Completed and deployed first client project"
+      },
+      {
+        "date": "2024-06-01",
+        "title": "Full-Stack Dev",
+        "description": "Transitioned to full-stack development"
+      }
+    ]
+  },
+  "fard-e-ayn": {
+    "title": "Fard-e-ayn",
+    "description": "Islamic personal obligations",
+    "items": [
+      {
+        "date": "2023-01-01",
+        "title": "Journey Start",
+        "description": "Started studying Islamic obligations"
+      },
+      {
+        "date": "2023-06-15",
+        "title": "Daily Practice",
+        "description": "Established daily spiritual practices"
+      },
+      {
+        "date": "2024-01-01",
+        "title": "One Year Mark",
+        "description": "Completed one year of consistent practice"
+      },
+      {
+        "date": "2024-09-01",
+        "title": "Going Deeper",
+        "description": "Advanced studies in Islamic jurisprudence"
+      }
+    ]
+  }
+}
